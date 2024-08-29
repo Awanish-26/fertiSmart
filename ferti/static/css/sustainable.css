@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/Images/sustainable.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:  rgba(255, 255, 255, 0.5);
+    color: rgb(255, 224, 70);
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.head-lines{
+    color: rgb(255, 255, 255);
+}
+
+#hr-color{
+    height: 2px;
+    background-color: white;
+}
+
+.intro{
+    height: 855px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: rgb(34, 29, 29);
+    background-color: rgb(119, 221, 209);
+    font-size: large;
+    font-weight: 500;
+    padding: 5px;
+    display: flex;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px white;
+    
+    
+}
+
+.intro-text{
+    height: 100px;
+    width: 750px;
+    margin-right: 80px;
+    margin-left: 5px;
+}
+
+.intro-img{
+        margin: 150px 80px 0px 0px;
+        height: 120px;
+        width: 120px;
+        
+    
+}
+
+#farming-img{
+    height: 500px;
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px white;
+}
+
+.needs{
+    height: 1200px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: rgb(34, 29, 29);
+    background-color: rgb(119, 221, 209);
+    font-size: large;
+    font-weight: 500;
+    padding: 5px;
+    display: flex;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.need-text{
+    height: 100px;
+    width: 750px;
+    margin-right: 80px;
+    margin-left: 5px;
+}
+
+.need-img{
+        margin: 300px 80px 0px 0px;
+        height: 120px;
+        width: 150px;
+}
+
+#need-sustain{
+    height: 500px;
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px white;
+}
+
+
+.benefits{
+    height: 1400px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(34, 29, 29);
+    background-color: rgb(119, 221, 209);
+    font-size: large;
+    font-weight: 500;
+    padding: 5px;
+    display: flex;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.benefits-text{
+    height: 100px;
+    width: 700px;
+    margin-right: 80px;
+    margin-left: 5px;
+}
+
+.benefits-img{
+    margin: 300px 80px 0px 0px;
+    height: 120px;
+    width: 150px;
+}
+
+#benefit-img{
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px white;
+}
+
+.goals{
+    height: 830px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(34, 29, 29);
+    background-color: rgb(119, 221, 209);
+    font-size: large;
+    font-weight: 500;
+    padding-left: 25px;
+    display: flex;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+#goals-img{
+    height: 550px;
+    width: 750px;
+    margin: 100px 20px 100px 160px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px white;
+
+}
+
+@media(max-width:400px){
+    .sustain-container{
+        flex-direction: column;
+    }
+
+   
+}
+
+
+@media(max-width:400px){
+    .intro{
+        height: 122rem;
+        width: 22rem;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .intro-text{
+        height: 20rem;
+        width: 20rem;
+        margin-left: 4px;
+    }
+
+   .intro-img{
+    margin-top: 80rem;
+    
+   }
+
+   #farming-img{
+    height: 20rem;
+    width: 21rem;
+    margin-left: 8px;
+   }
+}
+
+@media(max-width:400px){
+    .needs{
+        height: 158rem;
+        width: 22rem;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+   .need-text{
+        height: 20rem;
+        width: 20rem;
+        margin-left: 4px;
+        
+   }
+    .need-img{
+        margin-top:119rem; 
+    }
+    #need-sustain{
+        height: 18rem;
+        width: 20rem;
+        margin-left: 8px;
+    }
+}
+
+@media(max-width:400px){
+    .benefits{
+        height: 172rem;
+        width: 22rem;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .benefits-text{
+        height: 20rem;
+        width: 20rem;
+        margin-left: 4px;
+    }
+  .benefits-img{
+    margin-top: 132rem; 
+  }
+
+  #benefit-img{
+    height: 18rem;
+    width: 20rem;
+    margin-left: 8px;
+  }
+}
+
+@media(max-width:400px){
+    .goals{
+        height: 76rem;
+        width: 21rem;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .goals-text-contain{
+        height: 20rem;
+        width: 20rem;
+        margin-left: 4px;
+    }
+
+   .goal-img-contain{
+       margin-top: 30rem; 
+   }
+
+  #goals-img{
+    height: 16rem;
+    width: 20rem;
+    margin-left: 0px;
+    margin-right: 3px;
+  }
+
+}
