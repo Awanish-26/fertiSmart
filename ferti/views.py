@@ -8,7 +8,7 @@ def home(request):
 
 
 def soilAnalysis(request):
-    return render(request, 'pages/soil_from.html')
+    return render(request, 'pages/soil_form.html')
 
 
 def cropYield(request):
