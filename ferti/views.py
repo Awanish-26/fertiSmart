@@ -21,3 +21,7 @@ def sustainability(request):
 
 def fertilizer(request):
     return render(request, 'pages/fertilizer.html')
+
+
+def about(request):
+    return render(request, 'pages/about.html')

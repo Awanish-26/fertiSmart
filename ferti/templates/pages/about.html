@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% load static %}
+<!-- this is about page created by khushi -->
+<!-- this page contain all information about ferti smart and team members -->
+
+{% block Link %}
+  <link rel="stylesheet" href="{% static 'css/about.css' %} " />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+{% endblock %}
+
+{% block content %}
+  <div class="container1">
+    <!-- creating div tag contains all content of page -->
+    <div class="part1">
+      <!-- creating div tag contains all content of ferti smart -->
+      <h1>Ferti-Smart</h1>
+      <div class="about-ferti">
+        <h2>About Ferti-Smart</h2>
+        <div class="about-ferti-para">
+          <!-- para about ferti smart -->
+          <p class="para">This ferti smart aims to address the pressing issue of soil degradation caused by excessive and improper fertilizer usage. By leveraging data-driven insights, the project develops a comprehensive solution that provides farmers with personalized fertilizer recommendations. Through analyzing soil health, crop type, and weather patterns, the application offers tailored suggestions for optimal fertilizer types and quantities. This approach promotes sustainable agricultural practices, enhances crop yield, and ultimately improves farmers' income. The solution empowers farmers to make informed decisions about fertilizer usage, contributing to a more resilient and productive agricultural ecosystem.FertiSmart's innovative solution offers farmers a valuable tool for sustainable agriculture. By providing tailored fertilizer recommendations, the application helps farmers optimize resource utilization, reduce costs, and improve the overall health and productivity of their land. Ultimately, FertiSmart contributes to a more sustainable and resilient agricultural ecosystem, ensuring a brighter future for farmers and consumers alike.</p>
+        </div>
+        <button class="btn">Read More</button> <!-- creating button for read more -->
+      </div>
+    </div>
+    <div class="part2">
+      <!-- team memeber -->
+
+      <h2>our team</h2>
+      <div class="box-container">
+        <div class="row1">
+          <!-- div tag contain other 3 boxes -->
+
+          <div class="card" style="width: 18rem;">
+            <!-- box1 -->
+            <img class="card-img-top" src="{% static 'assets/member1.jpg' %} " alt="Card image cap" height="220rem" />
+            <div class="card-body">
+              <h5 class="card-title">Abhishek Pathak</h5>
+              <h6>FrontEnd Developer</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <!-- box 2 -->
+            <img class="card-img-top" src="{% static 'assets/member2.jpg' %} " alt="Card image cap" height="220rem" />
+            <div class="card-body">
+              <h5 class="card-title">Ayush Pal</h5>
+              <h6>BackEnd Developer/Rearch Team</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <!-- box3 -->
+            <img class="card-img-top" src="{% static 'assets/member3.jpg' %} " alt="Card image cap" height="220rem" />
+            <div class="card-body">
+              <h5 class="card-title">Ayush Jindal</h5>
+              <h6>Research Team</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row1">
+          <!-- div tag contain first 3 boxes -->
+
+          <div class="card" style="width: 18rem;">
+            <!-- box4 -->
+            <img class="card-img-top" src="{% static 'assets/member4.png' %}" alt="Card image cap" height="220rem" />
+            <div class="card-body">
+              <h5 class="card-title">Awanish</h5>
+              <h6>BackEnd Developer</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <!-- box5 -->
+            <img class="card-img-top" src="{% static 'assets/member5.jpg' %}" alt="Card image cap" height="220rem" />
+            <div class="card-body">
+              <h5 class="card-title">Muklendra Pratap Rao</h5>
+              <h6>FrontEnd Developer</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <!-- box5 -->
+            <img class="card-img-top" src="{% static 'assets/member6.jpg' %}" alt="Card image cap" height="220rem" />
+            <div class="card-body">
+              <h5 class="card-title">Khushi Gupta</h5>
+              <h6>FrontEnd Developer</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

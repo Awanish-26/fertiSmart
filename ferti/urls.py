@@ -7,5 +7,5 @@ urlpatterns = [
     path('crop-yield', views.cropYield, name='cropYield'),
     path('sustainability', views.sustainability, name='sustainability'),
     path('fertilizer', views.fertilizer, name='fertilizer'),
-    # path('/about', views.about, name='about'),
+    path('about', views.about, name='about'),
 ]
