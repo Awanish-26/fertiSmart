@@ -1,48 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
 <!-- ABHISHEK PATHAK -->
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fertilizer Result</title>
-    <link rel="stylesheet" href="../static/css/fertilizer.css">
+{% block Link %}
+    <link rel="stylesheet" href="{% static 'css/fertilizer.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-</head>
+{% endblock Link %}
 
-<body>
-    <!-- navigation bar -->
-    <header class="head">
-        <div class="left">Ferti-<span>Smart</span></div>
-        <nav>
-            <div class="right">
-                <ul>
-                    <li><a class="home" href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="soil.html">Soil Analysis</a></li>
-                    <li><a href="crop.html">Crop Yield Prediction</a></li>
-                    <li><a href="sustainable.html">Sustainable Development</a></li>
-                    
-                </ul>
-            </div>
-        </nav>
-        <div class="function_line">
-            <i id="icon_1" class="fa-solid fa-bars"></i>
-            <i id="icon_2" class="fa-solid fa-xmark"></i>
-        </div>
-    </header>
+{% block content %}
 <!-- main content -->
     <main>
         <div class="fertilizer_prediction">
             <div class="fertilizer_card">
 
-                <img src="../static/assets/agriculture.jpg" alt="" class="fertilizer_img">
+                <img src="{% static 'assets/agriculture.jpg' %}" alt="" class="fertilizer_img">
 
                 <div class="fertilizer_details">
                     <h3>Recommended Fertilizer: <span id="fertilizer_name">urea</span></h3>
@@ -55,7 +31,7 @@
 
             <div class="fertilizer_card">
 
-                <img src="../static/assets/agriculture.jpg" alt="" class="fertilizer_img">
+                <img src="{% static 'assets/agriculture.jpg' %}" alt="" class="fertilizer_img">
 
                 <div class="fertilizer_details">
                     <h3>Recommended Fertilizer: <span id="fertilizer_name">urea</span></h3>
@@ -73,22 +49,4 @@
         <p>&copy; 2024 fertilizer result | All rights reserved.</p>
     </footer>
 
-
-    <!-- javascript code -->
-
-<script>
-    const function_line = document.querySelector('.function_line');
-const head = document.querySelector('.head');
-
-const activenav = () => {
-    head.classList.toggle('active');
-}
-
-
-function_line.addEventListener("click", () => {
-    activenav();
-})
-</script>
-</body>
-
-</html>
+{% endblock content %}

@@ -1,21 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sustainale Farming</title>
-    <link rel="stylesheet" href="../static/css/sustainable.css">
-</head>
-<body>
-   
+{% extends 'base.html' %}
+{% load static %}
+
+{% block Link %}
+    <link rel="stylesheet" href="{% static 'css/sustainable.css' %}">
+{% endblock Link %}
+
 
 <div class="sustain-container">
     <div class="head"> <h1>Sustainable Farming</h1> </div> 
     <br> 
  
     <div class="intro">
-       
-        
             <div class="intro-text">
                 <h2 class="head-lines">What Is Sustainable Farming ?</h2> <br> <hr id="hr-color"> <br>
                 <p>Sustainable farming, also known as sustainable agriculture, refers to agricultural practices that are designed to meet current food and fiber needs while preserving the environment and resources for future generations. The main goals are to maintain or improve the health of the soil, reduce pollution, conserve water, and protect biodiversity. <br>
@@ -42,7 +37,7 @@
            
 
         <div class="intro-img">
-           <img src="../static/assets/farming.jpg" alt="Not Availabel" id="farming-img">
+           <img src="{% static 'assets/farming.jpg' %}" alt="Not Availabel" id="farming-img">
         </div>
 
     
@@ -86,7 +81,7 @@
         </div>
 
         <div class="need-img">
-            <img src="../static/assets/needs.jpg" alt="Not Availabel" id="need-sustain">
+            <img src="{% static 'assets/needs.jpg' %}" alt="Not Availabel" id="need-sustain">
         </div>
         
     </div>
@@ -137,7 +132,7 @@
         </div>
 
         <div class="benefits-img">
-            <img src="../static/assets/benefits.jpg" alt="Not Availabel" id="benefit-img">
+            <img src="{% static 'assets/benefits.jpg' %}" alt="Not Availabel" id="benefit-img">
         </div>
         
     </div>
@@ -171,7 +166,7 @@
        
 
           <div class="goal-img-contain">
-            <img src="../static/assets/sustainable2.jpg" alt="Not Availabel" id="goals-img">
+            <img src="{% static 'assets/sustainable2.jpg' %}" alt="Not Availabel" id="goals-img">
           </div>
         
     </div>
