@@ -177,7 +177,7 @@ footer p {
 
 /* responsive design code */
 
-@media (max-width: 920px) {
+@media screen and (max-width: 786px) {
 
  /* nav bar */
  header {

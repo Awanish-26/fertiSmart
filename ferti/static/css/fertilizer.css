@@ -147,7 +147,7 @@ footer p {
 }
 
 /* responsive code */
-@media (max-width: 920px) {
+@media screen and (max-width: 786px)  {
 
     /* nav bar */
     header {
@@ -218,14 +218,14 @@ footer p {
       display: none;
     }
 
-/* main content */
-.fertilizer_card{
-  flex-direction: column;
-  width: 88%;
-}
-.fertilizer_img{
-  width: 70%;
-  height: 70%;
-  margin: auto;
-}
+  /* main content */
+  .fertilizer_card{
+    flex-direction: column;
+    width: 88%;
+  }
+  .fertilizer_img{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+  }
 }   

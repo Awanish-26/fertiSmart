@@ -1,3 +1,5 @@
+/* Muklendra Pratap Rao */
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ body{
     background-repeat: no-repeat;
 }
 
+/* Sustainable Farming heading styling */
 .head{
     margin: 5px;
     padding: 5px;
@@ -20,6 +23,7 @@ body{
     box-shadow: 2px 2px 2px 2px black;
 }
 
+/* All other heading  */
 .head-lines{
     color: rgb(255, 255, 255);
 }
@@ -29,6 +33,7 @@ body{
     background-color: white;
 }
 
+/* Intro section styling */
 .intro{
     height: 855px;
     border: 2px solid white;
@@ -67,6 +72,7 @@ body{
     box-shadow: 5px 5px 5px 5px white;
 }
 
+/* Needs section styling */
 .needs{
     height: 1200px;
     border: 2px solid white;
@@ -101,7 +107,7 @@ body{
     box-shadow: 5px 5px 5px 5px white;
 }
 
-
+/* Benefits section styling */
 .benefits{
     height: 1400px;
     border: 2px solid rgb(255, 255, 255);
@@ -136,6 +142,7 @@ body{
     box-shadow: 5px 5px 5px 5px white;
 }
 
+/* Goals section styling */
 .goals{
     height: 830px;
     border: 2px solid rgb(255, 255, 255);
@@ -159,16 +166,12 @@ body{
 
 }
 
-@media(max-width:400px){
+/* All Div responsiveness */
+@media screen and (max-width: 786px) {
     .sustain-container{
         flex-direction: column;
     }
-
-   
-}
-
-
-@media(max-width:400px){
+    /* Sustainable farming div responsive */
     .intro{
         height: 122rem;
         width: 22rem;
@@ -191,9 +194,7 @@ body{
     width: 21rem;
     margin-left: 8px;
    }
-}
-
-@media(max-width:400px){
+  /* Needs div responsive */ 
     .needs{
         height: 158rem;
         width: 22rem;
@@ -214,9 +215,7 @@ body{
         width: 20rem;
         margin-left: 8px;
     }
-}
-
-@media(max-width:400px){
+    /* Benefits div responsive */
     .benefits{
         height: 172rem;
         width: 22rem;
@@ -237,9 +236,7 @@ body{
     width: 20rem;
     margin-left: 8px;
   }
-}
-
-@media(max-width:400px){
+    /* Goals div responsive */
     .goals{
         height: 76rem;
         width: 21rem;

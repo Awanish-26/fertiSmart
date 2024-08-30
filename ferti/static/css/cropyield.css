@@ -1,12 +1,11 @@
+/*this is crop yield prediction css file created by khushi*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-body{
+body{  /*setting background img*/
     background:linear-gradient( rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.3)),url(../assets/background.png);
-    /* background-image: url("background.png");
-    background-image: linear-gradient(rgb(18, 16, 16)); */
     background-repeat: repeat;
     background-size: cover;
     font-family: "Roboto", sans-serif;
@@ -14,7 +13,7 @@ body{
 .nav{
    height: 50px;
 }
-.crop-yield-details{
+.crop-yield-details{   /*form styling*/
     background-color: #d9d9d9;
     height: 630px;
     width: 500px;
@@ -36,7 +35,7 @@ h4{
     font-size: 1.5rem;
     margin: 10px 20px;
 }
-form input,select{
+form input,select{ /*styling of input and select tag */
     background-color: #eee;
     height: 2rem;
     width: 90%;
@@ -59,12 +58,12 @@ form input:hover,select:hover{
     border-style: none;
     font-weight: 600;
 }
-.btn:hover{
+.btn:hover{ /* button hover effect*/
     border: 1px solid #c2c2c2;
     background-color: black;
     color: white;
 }
-.res{
+.res{  /*result display*/
     color: #22223b;
     font-size: 1.5rem;
     text-align: center;
